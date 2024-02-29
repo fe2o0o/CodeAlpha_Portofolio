@@ -1,0 +1,7 @@
+<div [ngClass]="isDark?'bg-white' : 'bg-dark'" (click)="addDark()" class="container">
+  <p *ngIf="!isDark else dark" class="fs-4 m-0 ">🌕</p>
+  <ng-template #dark>
+    <p class="fs-4 m-0 ">🌑</p>
+  </ng-template>
+</div>
+

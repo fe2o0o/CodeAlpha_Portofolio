@@ -1,0 +1,37 @@
+.bar-item{
+  position: relative;
+  margin-bottom: 8px;
+  .skill-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  .skill-bar{
+    width: 100%;
+    height: 12px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.257);
+    position: relative;
+  }
+
+  .skill-bar-bg{
+    height: 12px;
+    background-color: #0079FF;
+    position: absolute;
+    bottom:0px;
+    transition: all 1s !important;
+    -webkit-transition: all 1s !important;
+    -moz-transition: all 1s !important;
+    -ms-transition: all 1s !important;
+    -o-transition: all 1s !important;
+}
+}
+
+.container .row .col-md-4{
+  transition: all 2s;
+  -webkit-transition: all 2s;
+  -moz-transition: all 2s;
+  -ms-transition: all 2s;
+  -o-transition: all 2s;
+}

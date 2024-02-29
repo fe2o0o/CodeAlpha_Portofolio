@@ -1,0 +1,43 @@
+<div class="overlay"></div>
+<div class="container p-5 vh-100 d-flex align-items-center">
+  <div class="row col-12 ">
+    <div [ngClass]="isDark?'text-white':'text-dark'" class="col-xl-6">
+      <h1 data-aos="fade-left" data-aos-duration="700">GET IN TOUCH</h1>
+      <h1 data-aos="fade-left" data-aos-duration="700" data-aos-delay="500">GET REAL</h1>
+      <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="700" class="links py-3 mb-3">
+        <a [ngClass]="!isDark?'bg-white text-dark':'bg-dark text-white'" target="_blank"
+          href="https://www.facebook.com/profile.php?id=100035968641784">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://github.com/fe2o0o" target="_blank" [ngClass]="!isDark?'bg-white text-dark':'bg-dark text-white'">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a [ngClass]="!isDark?'bg-white text-dark':'bg-dark text-white'" target="_blank" href="https://instagram.com/ibrahimmohamedtawfik?igshid=OGQ5ZDc2ODk2ZA==">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+        <a [ngClass]="!isDark?'bg-white text-dark':'bg-dark text-white'" href="https://www.linkedin.com/in/ibrahim-mohamed-479317272/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+      <ul data-aos="fade-up" data-aos-duration="700" data-aos-delay="1200"  class="list-unstyled mb-2 px-2">
+        <li class="mb-3">
+          <i class="fa-solid fa-envelope me-2"></i>
+          <span><a class="text-a" href="mailto:ibrahimfe2o0o@gmail.com">ibrahimfe2o0o@gmail.com</a></span>
+        </li>
+        <li class="mb-1">
+          <i class="fa-solid fa-phone me-2"></i>
+          <a href="tel:01284954021" class="fw-semibold">+20 01284954021</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xl-6">
+      <form  data-aos="fade-left" data-aos-duration="700" data-aos-delay="1400" class="form">
+        <input [ngClass]="isDark?'text-white':'text-dark'" type="text" class="form-control bg-transparent" placeholder="YOUR NAME :" >
+        <input [ngClass]="isDark?'text-white':'text-dark'" type="text" class="form-control bg-transparent" placeholder="SUBJECT :" >
+        <input [ngClass]="isDark?'text-white':'text-dark'" type="email" class="form-control bg-transparent" placeholder="YOUR E-MAIL :" >
+        <textarea [ngClass]="isDark?'text-white':'text-dark'" class="form-control bg-transparent" placeholder="MESSAGE" rows="7"></textarea>
+        <button class="btn btn-outline-info fw-bold">SEND</button>
+      </form>
+    </div>
+  </div>
+</div>

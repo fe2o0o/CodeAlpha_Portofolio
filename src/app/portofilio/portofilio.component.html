@@ -1,0 +1,28 @@
+<div class="overlay">
+</div>
+<div class="container vh-100 ">
+  <div class="row position-relative top-50">
+    <h1 data-aos="fade-left" data-aos-duration="1000" [ngClass]="isDark?'text-white fw-bolder':'text-dark fw-bolder'">Slide To Show My Projects</h1>
+    <owl-carousel-o data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" [options]="customOptions">
+      <ng-template carouselSlide *ngFor="let project of projects" class="">
+        <div [id]="project?.id" class="col item p-2 position-relative overflow-hidden">
+          <img class="w-100" [src]="project?.imagePath" [alt]="project?.title">
+          <div class="over position-absolute  overflow-hidden  bg-white p-2 text-center">
+            <h5 class="h3">{{project?.title}}</h5>
+            <p class="lead">{{project?.desc}}</p>
+            <div class="mb-3 d-flex flex-wrap justify-content-center">
+              <span class="me-2 text-bg-danger p-1 rounded-2" *ngFor="let tecno of project?.tecno">{{tecno}}</span>
+            </div>
+            <div>
+              <button class="btn btn-dark me-2"><a [routerLink]="['/projectDetails',project?.id]"
+                  class="text-decoration-none text-white">See More</a></button>
+              <button class="btn btn-success"><a target="_blank" [href]="project?.link"
+                  class="text-decoration-none text-white">See Live</a></button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </owl-carousel-o>
+  </div>
+</div>
+

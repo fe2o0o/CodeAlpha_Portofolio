@@ -1,0 +1,23 @@
+<div class="overlay">
+</div>
+<div class="container p-5 vh-100">
+  <div class="row">
+    <div data-aos="fade-right" data-aos-duration="1000" class="col-xl-5 mb-5 overflow-hidden">
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let image of project[0].images">
+          <img class="w-100" [src]="image" alt="">
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" class="col-xl-7 mb-5">
+      <h1 [ngClass]="isDark?'text-white':''" class=" mb-3">Developer : {{project[0].author}}</h1>
+      <h2 [ngClass]="isDark?'text-white':''" class=" mb-3">Title : {{project[0].title}}</h2>
+      <p [ngClass]="isDark?'text-white':''" class="fw-bold mb-3 lead">Description : {{project[0].Fdesc}}</p>
+      <div class="mb-4 d-flex flex-wrap">
+        <span class="text-bg-danger p-2 rounded-1 me-2 mb-2" *ngFor="let tecno of project[0]?.tecno">{{tecno}}</span>
+      </div>
+      <button class="btn btn-warning me-3"><a class="text-decoration-none text-dark fw-bold" target="_blank" [href]="project[0].codePath">View Code</a></button>
+      <button class="btn btn-success"><a class="text-decoration-none text-white fw-bold" target="_blank" [href]="project[0].link">See Live</a></button>
+    </div>
+  </div>
+</div>

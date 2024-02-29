@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+a{
+  text-decoration: none !important;
+}
+
+section{
+  height: 100vh;
+}
+
+
+
+.bg-icons{
+  background-color: #0079FF !important;
+  color: white !important;
+}
+
+.text-a{
+    color: #0079FF !important;
+}
+
+.bg-main {
+  position: relative;
+}
+
+.bg-main.dark{
+  .overlay{
+    display: block !important;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  }
+}
+
+
+.info-box{
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.overlay {
+  background-color: black;
+  position:absolute;
+  z-index: -1;
+  width: 3rem ;
+  height: 3rem ;
+  bottom: 3rem;
+  right: 2rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+

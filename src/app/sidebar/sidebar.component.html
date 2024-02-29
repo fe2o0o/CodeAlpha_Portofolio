@@ -1,0 +1,103 @@
+<div data-aos="zoom-in" data-aos-duration="1000"  *ngIf="isOverlay" [ngClass]="isDark?'bg-dark':'bg-white'" class="links-overlay position-fixed top-0 start-0 end-0 bottom-0">
+  <div class="container  px-5">
+    <div class="row mb-5">
+      <div data-aos="zoom-out" data-aos-delay="500" class=" mb-2 col-md-3 text-center">
+        <a (click)="hideOverlay()" routerLink="education">
+          <img class="mb-2" width="40px" src="assets/inages/graduation_cap.png" alt="graduate">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">EDUCATION</p>
+        </a>
+      </div>
+      <div data-aos="zoom-out" data-aos-delay="500" class=" mb-2 col-md-3 text-center">
+        <a routerLink="skills" (click)="hideOverlay()">
+          <img class="mb-2" width="40px" src="assets/inages/pie_chart.png" alt="skills">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">SKILLS</p>
+        </a>
+      </div>
+      <div data-aos="zoom-out" data-aos-delay="500" class=" mb-2 col-md-3 text-center">
+        <a routerLink="portofilio" (click)="hideOverlay()">
+          <img class="mb-2" width="40px" src="assets/inages/safe.png" alt="portofolio">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">PORTFOILIOS</p>
+        </a>
+      </div>
+      <div data-aos="zoom-out" data-aos-delay="500" class=" mb-2 col-md-3 text-center">
+        <a routerLink="home" (click)="hideOverlay()">
+          <img class="mb-2" width="40px" src="assets/inages/business_contact.png" alt="home">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">HOME</p>
+        </a>
+      </div>
+    </div>
+    <div data-aos="zoom-out" data-aos-delay="500" class="row">
+      <div class=" mb-2 col-md-3 text-center">
+        <a routerLink="contact" (click)="hideOverlay()">
+          <img class="mb-2" width="40px" src="assets/inages/envelope.png" alt="contact">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">CONTACT ME</p>
+        </a>
+      </div>
+      <div data-aos="zoom-out" data-aos-delay="500" class=" mb-2 col-md-3 text-center">
+        <a routerLink="about"  (click)="hideOverlay()">
+          <img class="mb-2" width="40px" src="assets/inages/comvzhssmyverizon.png" alt="about me">
+          <p [ngClass]="isDark?'text-white':'text-dark'" class="m-0">ABOUT ME</p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<ul [ngClass]="[isIntail?'bottom-0':'',!isDark?'bg-white':'bg-dark']"  class="wrapper w-100  m-0 py-1 px-2 rounded-3">
+  <li class="icon facebook">
+    <span class="tooltip">EDUCATION</span>
+    <a routerLink="education">
+      <span class="p-1">
+        <img width="30px" src="assets/inages/graduation_cap.png" alt="education">
+      </span>
+    </a>
+  </li>
+  <li class="icon twitter">
+    <span class="tooltip">SKILLS</span>
+      <a routerLink="skills">
+        <span class="p-1">
+          <img width="30px" src="assets/inages/pie_chart.png" alt="skills">
+        </span>
+      </a>
+  </li>
+  <li class="icon instagram">
+    <span class="tooltip">PORTFOILIOS</span>
+    <a routerLink="portofilio">
+      <span class="p-1">
+        <img width="30px" src="assets/inages/safe.png" alt="portofilio">
+      </span>
+    </a>
+  </li>
+  <li (click)="showOvelay()" class="icons">
+    <span class="p-2">
+      <i class="fa-solid fa-angle-up"></i>
+    </span>
+  </li>
+
+  <li class="icon facebook">
+    <span class="tooltip">HOME</span>
+    <a routerLink="home">
+      <span class="p-1">
+        <img width="30px" src="assets/inages/business_contact.png" alt="home">
+      </span>
+    </a>
+  </li>
+  <li class="icon twitter">
+    <span class="tooltip">CONTACT</span>
+    <a routerLink="contact">
+      <span class="p-1">
+        <img width="30px" src="assets/inages/envelope.png" alt="contact">
+      </span>
+    </a>
+  </li>
+  <li class="icon instagram">
+    <span class="tooltip">ME</span>
+    <a routerLink="about">
+      <span class="p-1">
+        <img width="30px" src="assets/inages/comvzhssmyverizon.png" alt="about me">
+      </span>
+    </a>
+  </li>
+</ul>
+

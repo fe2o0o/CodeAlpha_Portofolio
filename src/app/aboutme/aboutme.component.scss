@@ -1,0 +1,418 @@
+.cv::after{
+  content: "|";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+      animation-name: hamada;
+      animation-duration: 20s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+
+
+
+@keyframes hamada {
+  0% {
+    content: "F|";
+  }
+
+  1% {
+    content: "FR|";
+  }
+
+  2% {
+    content: "FRO|";
+  }
+
+  3% {
+    content: "FRON|";
+  }
+
+  4% {
+    content: "FRONT|";
+  }
+
+  5% {
+    content: "FRONT |";
+  }
+
+  6% {
+    content: "FRONT E|";
+  }
+
+  7% {
+    content: "FRONT EN|";
+  }
+
+  8% {
+    content: "FRONT END |";
+  }
+
+  9% {
+    content: "FRONT END|";
+  }
+
+  10% {
+    content: "FRONT EN|";
+  }
+
+  11% {
+    content: "FRONT E|";
+  }
+
+  12% {
+    content: "FRONT |";
+  }
+
+  13% {
+    content: "FRONT|";
+  }
+
+  14% {
+    content: "FRON|";
+  }
+
+  15% {
+    content: "FRO|";
+  }
+
+  17% {
+    content: "FR|";
+  }
+
+  18% {
+    content: "F|";
+  }
+
+  19% {
+    content: "F|";
+  }
+
+  20% {
+    content: "FR|";
+  }
+
+  21% {
+    content: "FRE|";
+  }
+
+  22% {
+    content: "FREL|";
+  }
+
+  23% {
+    content: "FRELAN|";
+  }
+
+  24% {
+    content: "FRELANC|";
+  }
+
+  25% {
+    content: "FRELANCE|";
+  }
+
+  26% {
+    content: "FRELANCER|";
+  }
+
+  27% {
+    content: "FRELANCER |";
+  }
+
+  28% {
+    content: "FRELANCER|";
+  }
+
+  29% {
+    content: "FRELANCE|";
+  }
+
+  30% {
+    content: "FRELANC|";
+  }
+
+  31% {
+    content: "FRELAN|";
+  }
+
+  32% {
+    content: "FRELA|";
+  }
+
+  33% {
+    content: "FREL|";
+  }
+
+  34% {
+    content: "FRE|";
+  }
+
+  35% {
+    content: "FR|";
+  }
+
+  36% {
+    content: "F|";
+  }
+
+  37% {
+    content: "|";
+  }
+
+  38% {
+    content: "H|";
+  }
+
+  39% {
+    content: "HA|";
+  }
+
+  40% {
+    content: "HARD|";
+  }
+
+  41% {
+    content: "HARD |";
+  }
+
+  42% {
+    content: "HARD W|";
+  }
+
+  43% {
+    content: "HARD WO|"
+  }
+
+  44% {
+    content: "HARD WOR|"
+  }
+
+  45% {
+    content: "HARD WORK|"
+  }
+
+  46% {
+    content: "HARD WORKI|"
+  }
+
+  47% {
+    content: "HARD WORKIN|"
+  }
+
+  48% {
+    content: "HARD WORKING|"
+  }
+
+  49% {
+    content: "HARD WORKING |"
+  }
+
+  50% {
+    content: "HARD WORKING|"
+  }
+
+  51% {
+    content: "HARD WORKIN|"
+  }
+
+  52% {
+    content: "HARD WORKI|"
+  }
+
+  53% {
+    content: "HARD WORK|"
+  }
+
+  54% {
+    content: "HARD WOR|"
+  }
+
+  55% {
+    content: "HARD WO|"
+  }
+
+  56% {
+    content: "HARD W|"
+  }
+
+  57% {
+    content: "HARD |"
+  }
+
+  58% {
+    content: "HARD|"
+  }
+
+  59% {
+    content: "HAR|"
+  }
+
+  60% {
+    content: "HA|"
+  }
+
+  61% {
+    content: "H|"
+  }
+
+  62% {
+    content: "|";
+  }
+
+  63% {
+    content: "P|";
+  }
+
+  64% {
+    content: "PO|";
+  }
+
+  65% {
+    content: "POS|";
+  }
+
+  66% {
+    content: "POSI|";
+  }
+
+  67% {
+    content: "POSITI|";
+  }
+
+  68% {
+    content: "POSITIV|";
+  }
+
+  69% {
+    content: "POSITIVE|";
+  }
+
+  70% {
+    content: "POSITIVE |";
+  }
+
+  71% {
+    content: "POSITIVE|";
+  }
+
+  72% {
+    content: "POSITIV|";
+  }
+
+  73% {
+    content: "POSITI|";
+  }
+
+  74% {
+    content: "POSIT|";
+  }
+
+  75% {
+    content: "POSI|";
+  }
+
+  76% {
+    content: "POS|";
+  }
+
+  77% {
+    content: "PO|";
+  }
+
+  78% {
+    content: "P|";
+  }
+
+  79% {
+    content: "|";
+  }
+
+  80% {
+    content: "|";
+  }
+
+  81% {
+    content: "E|";
+  }
+
+  82% {
+    content: "EP|";
+  }
+
+  83% {
+    content: "EXPE|";
+  }
+
+  84% {
+    content: "EXPER|";
+  }
+
+  85% {
+    content: "EXPERI|";
+  }
+
+  86% {
+    content: "EXPERIE|";
+  }
+
+  87% {
+    content: "EXPERIEN|";
+  }
+
+  88% {
+    content: "EXPERIENC|";
+  }
+
+  89% {
+    content: "EXPERIENCE|";
+  }
+
+  90% {
+    content: "EXPERIENCE |";
+  }
+
+  91% {
+    content: "EXPERIENCE|";
+  }
+
+  92% {
+    content: "EXPERIENC|";
+  }
+
+  93% {
+    content: "EXPERIEN|";
+  }
+
+  94% {
+    content: "EXPERIE|";
+  }
+
+  95% {
+    content: "EXPERI|";
+  }
+
+  96%{
+    content: "EXPER|";
+  }
+  97%{
+    content: "EXPE|";
+  }
+  98%{
+    content: "EXP|";
+  }
+  99%{
+    content: "EX|";
+  }
+  100%{
+    content: "E|";
+  }
+}
